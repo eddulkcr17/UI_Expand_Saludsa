@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.title{
+  font-size: 30px;
+  
+}
+
+.labelLastDate {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+body{
+  margin: 10px;
+}
+.inputDate{
+  margin-left: 30px;
+}
+
+
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none; /* Evita que el componente sea interactivo */
+}
+
+.date{
+  margin-left: 20px;
+}
+.dateEnd{
+  margin-left: 35px;
+}
+
